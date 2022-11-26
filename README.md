@@ -9,24 +9,16 @@
 | 3      | Yehezkiel Wiradhika        | 5025201086 |
   
 
-<details>
-  
- 1. [CIDR dengan GNS](https://github.com/winatungmiharja/Jarkom-Modul-4-D03-2022/#CIDR)
- 2. [VLSM dengan CPT](https://github.com/winatungmiharja/Jarkom-Modul-4-D03-2022/#VLSM)
- 
-</details>
  
 ![soal shift 4 1](https://user-images.githubusercontent.com/64743796/203558222-0a3ce77a-3009-43d8-bb4d-c9777d5a7b04.png)
 
 ## CIDR
  
-dengan metode ini, kita akan menggabungkan subnet dari node yang paling jauh dari sumber NAT (internet), kemudian kita akan menggabungkan satu per satu sampai semua node menjadi satu grup.
- 
 ### Penggabungan Node
  
 1. Kondisi Node Awal
  
-![A](https://user-images.githubusercontent.com/64743796/203560354-7584e30d-2b07-423b-b567-b4a200a1e421.jpg)
+![A](https://github.com/hadisptr/Jarkom-Modul-4-D01/blob/main/Gambar/A.png)
 
  
 | Subnet | Alias                         | Jumlah IP | Netmask |
@@ -51,7 +43,7 @@ dengan metode ini, kita akan menggabungkan subnet dari node yang paling jauh dar
 | A18    | the firefist-oakleave         | 501       | 23      |
  
 2. Penggabungan Node Pertama (B)
-![B](https://user-images.githubusercontent.com/64743796/203560367-42d32637-2d58-4967-9aaa-62556c49f60a.jpg)
+![B](https://github.com/hadisptr/Jarkom-Modul-4-D01/blob/main/Gambar/B.png)
 
 | Subnet | Alias   | Jumlah IP | Netmask |
 | ------ | ------- | --------- | ------- |
@@ -60,7 +52,7 @@ dengan metode ini, kita akan menggabungkan subnet dari node yang paling jauh dar
 | B3     | A13,A16 | 121       | 24      |
 
 3. Penggabungan Node Kedua (C)
-![C](https://user-images.githubusercontent.com/64743796/203560401-69b3c36f-08b6-44a5-bf0c-20c6418a085d.jpg)
+![C](https://github.com/hadisptr/Jarkom-Modul-4-D01/blob/main/Gambar/C.png)
 
 | Subnet | Alias  | Jumlah IP | Netmask |
 | ------ | ------ | --------- | ------- |
@@ -69,7 +61,7 @@ dengan metode ini, kita akan menggabungkan subnet dari node yang paling jauh dar
 | C3     | B3,A12 | 121       | 23      |
 
 4. Penggabungan Node Ketiga (D)
-![D](https://user-images.githubusercontent.com/64743796/203560413-60c6fd69-e241-4f5c-9e0a-80fd54ad0b99.jpg)
+![D](https://github.com/hadisptr/Jarkom-Modul-4-D01/blob/main/Gambar/D.png)
 
 | Subnet | Alias  | Jumlah IP | Netmask |
 | ------ | ------ | --------- | ------- |
@@ -78,7 +70,7 @@ dengan metode ini, kita akan menggabungkan subnet dari node yang paling jauh dar
 | D3     | C3,A9  | 121       | 22      |
 
 5. Penggabungan Node Keempat (E)
-![E](https://user-images.githubusercontent.com/64743796/203560422-8bf59dd8-7459-464a-b8d1-a3cd8d55d701.jpg)
+![E](https://github.com/hadisptr/Jarkom-Modul-4-D01/blob/main/Gambar/E.png)
 
 | Subnet | Alias | Jumlah IP | Netmask |
 | ------ | ----- | --------- | ------- |
@@ -86,7 +78,7 @@ dengan metode ini, kita akan menggabungkan subnet dari node yang paling jauh dar
 | E2     | D2,D3 | 501       | 20      |
 
 6. Penggabungan Node Kelima (F)
-![F](https://user-images.githubusercontent.com/64743796/203560433-680a8310-5906-4478-9e10-955e65540551.jpg)
+![F](https://github.com/hadisptr/Jarkom-Modul-4-D01/blob/main/Gambar/F.png)
 
 | Subnet | Alias  | Jumlah IP | Netmask |
 | ------ | ------ | --------- | ------- |
@@ -94,7 +86,7 @@ dengan metode ini, kita akan menggabungkan subnet dari node yang paling jauh dar
 | F2     | E2,A10 | 501       | 19      |
 
 7. Penggabungan Node Keenam (G)
-![G](https://user-images.githubusercontent.com/64743796/203560442-474617ff-dea5-45a1-b128-6210c86830cd.jpg)
+![G](https://github.com/hadisptr/Jarkom-Modul-4-D01/blob/main/Gambar/G.png)
 
 | Subnet | Alias | Jumlah IP | Netmask |
 | ------ | ----- | --------- | ------- |
@@ -102,22 +94,19 @@ dengan metode ini, kita akan menggabungkan subnet dari node yang paling jauh dar
 | G2     | F2,A6 | 501       | 18      |
 
 8. Penggabungan Node Ketujuh (H)
-![H](https://user-images.githubusercontent.com/64743796/203560457-bcc0e50e-360a-4996-b850-eddf371ab062.jpg)
+![H](https://github.com/hadisptr/Jarkom-Modul-4-D01/blob/main/Gambar/H.png)
 
 | Subnet | Alias | Jumlah IP | Netmask |
 | ------ | ----- | --------- | ------- |
 | H1     | G2,A7 | 501       | 17      |
 
 9. Penggabungan Node Kedelapan (I)
-![i](https://user-images.githubusercontent.com/64743796/203560469-a5e43913-5a79-4b1b-a219-25421b6b2707.jpg)
+![i](https://github.com/hadisptr/Jarkom-Modul-4-D01/blob/main/Gambar/I.png)
 
  | Subnet | Alias | Jumlah IP | Netmask |
 | ------ | ----- | --------- | ------- |
 | I1     | H1,G1 | 1001      | 16      |
  
-### Pohon IP
- 
-![image](https://user-images.githubusercontent.com/64743796/203562242-64138541-6cd4-4e26-b045-ec8dc4545440.png)
 
 ### Tabel Pembagian IP
 
@@ -613,8 +602,6 @@ Perhitungan IP
 | A18       | The firefirst-oakleave        | 501       | 23      |
 | Jumlah IP | 2617                          | 20        |
 
-Pohon IP  
-<img width="897" alt="Screenshot 2022-11-23 at 21 31 10" src="https://user-images.githubusercontent.com/57696730/203572473-c614bdb7-c565-4ec3-9e07-83d0953a4e31.png">  
 
 Hasil Pembagian IP per node  
 | Subnet | Node           | IP            | Length | Netmask         |
