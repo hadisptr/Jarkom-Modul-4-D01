@@ -645,3 +645,4 @@ Hasil Pembagian IP per node
 | A17    | The Queen      | 192.185.9.226 |        | 255.255.255.252 |
 | A18    | The FIrefirst  | 192.185.10.1  | /23    | 255.255.254.0   |
 | A18    | Oakleave       | 192.185.10.2  |        | 255.255.254.0   |
+
